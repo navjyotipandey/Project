@@ -16,6 +16,7 @@ public class HelloWorldConfiguration {
 	
 	@Bean(name="HelloWorld")
 	public ViewResolver viewResolver() {
+		System.out.println("shyam");
 		InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
 		viewResolver.setViewClass(JstlView.class);
 		viewResolver.setPrefix("/WEB-INF/views/");
