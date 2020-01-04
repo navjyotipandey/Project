@@ -12,7 +12,7 @@ import org.springframework.web.servlet.view.JstlView;
 @EnableWebMvc
 @ComponentScan(basePackages = "com.websystique.springmvc")
 public class HelloWorldConfiguration {
-	//comment
+	//comments
 	
 	@Bean(name="HelloWorld")
 	public ViewResolver viewResolver() {
